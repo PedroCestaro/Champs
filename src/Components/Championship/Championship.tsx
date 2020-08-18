@@ -2,18 +2,19 @@ import React from 'react';
 import './styles.css';
 import Match from '../Match';
 
-/*interface ChampionshipINT{
-    nome: string
-}*/
 
 const Championship =  () => {
     return(
-        <div className="container">
-            <article className="champs">
-                <header className="champName"><h1>Nome</h1></header>
-                <Match/>
-                <footer className="results">Results</footer>
-            </article>
+        <div className="container">    
+            <div className="champs">
+                    <span className="champName">Nome</span>
+                    <Match/>
+                    <footer className="results">
+                    <h2>Results</h2>
+                    <p>Média do Champ</p>
+                    <p>Pts do Champ</p>
+                    </footer>
+            </div>
         </div>
     );
 }

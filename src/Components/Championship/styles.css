@@ -3,22 +3,27 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
 }
 
 .champs{
     background-color: #C5C1C9;
     box-sizing: border-box;
-    display:block;
+    display: flex;
     border-radius: 1rem;
     padding: 0.5rem;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    height: 100%;
+    width: 100%;
 }
 
 .champName{
     background-color: #9149FC;
-    display: block;
+    display: flex;
     align-items: center;
     justify-self: center;
     box-sizing: content-box;
@@ -26,13 +31,10 @@
     padding: 0.5rem;
     color: #ffffff;
     border-radius: 0.5rem;
+    width: 100%;
 }
 
-.champName h1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 
 
 .results{
@@ -45,6 +47,7 @@
     padding: 0.5rem;
     color: #ffffff;
     border-radius: 0.5rem;
+    width: 100%;
 }
 
     
