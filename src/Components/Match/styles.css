@@ -1,0 +1,7 @@
+.match{
+    display: flex;
+    background-color: #F5F5F5;
+    box-sizing: border-box;
+    padding: 1.2rem;
+    border-radius: 1rem;
+}

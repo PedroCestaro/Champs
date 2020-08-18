@@ -1,17 +1,20 @@
 import React from 'react';
-import './App.css';
 import Header from './Components/Header/Header';
+import Championship from './Components/Championship/Championship';
+import './App.css';
+
 
 function App() {
+
+
   return (
     <div className="App">
       <Header/>
-      <div>
-        <h1>Campeonato</h1>
-
-        <h4>Results</h4>
+     
+      <Championship/>
       </div>
-    </div>
+     
+    
   );
 }
 
