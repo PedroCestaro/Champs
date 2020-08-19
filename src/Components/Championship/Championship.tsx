@@ -7,8 +7,10 @@ const Championship =  () => {
     return(
         <div className="container">    
             <div className="champs">
-                    <span className="champName">Nome</span>
-                    <Match/>
+                    <span className="champName">
+                        <h1 >Nome</h1>
+                        </span>    
+                    
                     <footer className="results">
                     <h2>Results</h2>
                     <p>Média do Champ</p>

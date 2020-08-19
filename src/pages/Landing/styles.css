@@ -1,0 +1,34 @@
+.pageLanding{
+    width: 100vw;
+    height: 100vh;
+    display: row;
+    justify-content: center;
+    align-items: center;
+    background-color:#fff;
+}
+
+.logoContainer{
+    height: 50vh;
+    width: 100vw;
+    border-radius: 1.5rem;
+    background-color: #4E02B0;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}  
+
+.logoImg{
+    width: 100%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+.buttonsContainer{
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    width: 100vw;
+}
