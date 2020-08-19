@@ -1,9 +1,25 @@
 import React, { useState } from 'react';
-import './styles.css';
+
 import PlayerItem from '../Player';
+
+let winner = false;
+
+function isWinner(){
+    if (winner) {
+        return (
+            <div className="winner" />
+        )
+    } else {
+        return (
+            <div className="looser"/>
+        )
+    }
+}
 
 
 function Match(){   
+     
+   
 
     function result() {
        const scout = {
@@ -22,13 +38,27 @@ function Match(){
             
             <div className="match">
                 <PlayerItem
-                avatar="https://avatars3.githubusercontent.com/u/51093289?s=460&u=768e5fdf98ecbba15a348c29a3ad19306acde2a3&v=4"
+                avatar='foto'
                 playerName="Pedro"
                 scouts={result()}    
                 />
-                <h1>VS</h1>
+
+                <button onClick={isWinner}>Vencedor</button>
+
+                <div><h1>VS</h1></div>
+                
+                <PlayerItem
+                avatar='foto'
+                playerName="Pedro"
+                scouts={result()}    
+                />
+
+                <button onClick={isWinner}>Vencedor</button>
+                
+                <footer>
                 <h3>Pts da Partida</h3>
                 <h3>Vencedor</h3>
+                </footer>
             </div>
 
         </div>

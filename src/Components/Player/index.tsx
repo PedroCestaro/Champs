@@ -1,8 +1,9 @@
 import React from 'react';
 
 
+
 export interface Player{
-   avatar: string;
+   avatar : string,
    playerName: string;
    scouts: {
        pts:string,
@@ -17,9 +18,13 @@ export interface Player{
 const PlayerItem: React.FC<Player> = (player) => {
     
     return(
-        <div>
-            <div className="avatar"><p>{player.avatar}</p></div>
-            <div className="playerName"><p>{player.playerName}</p></div>
+        <div className="container">
+            <div className="ident">
+                <div className="avatar">
+                    <p>{player.avatar}</p>
+                </div>
+                <div className="playerName"><p>{player.playerName}</p></div>
+            </div>
             <div className="content">
                 <h1>Scouts</h1>
                 <div className="scouts">
@@ -29,6 +34,7 @@ const PlayerItem: React.FC<Player> = (player) => {
                     <p><strong>Derrotas: </strong>{player.scouts.losses}</p>
                     <p><strong>Média: </strong>{player.scouts.avg}</p>
                 </div>
+                <button>Vencedor</button>
             </div>
 
         </div>
