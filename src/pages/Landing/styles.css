@@ -47,17 +47,13 @@
 
 @media(min-width: 600px){
     .logoContainer{
-        box-shadow: 1rem 2rem 2rem #2f1d80;
+        box-shadow: 0rem 5rem 10rem #5f0394;
     }
     .logoImg{
         width: 20rem;
     }
 
-    .buttonsContainer button{
-        box-shadow: none;
-    }
-
     .buttonsContainer{
-        box-shadow: 2rem 5rem 10rem #fc052e;
+        background-color: rgba(47, 29, 128, 0);
     }
 }
