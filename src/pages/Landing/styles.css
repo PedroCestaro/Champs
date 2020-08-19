@@ -4,21 +4,23 @@
     display: row;
     justify-content: center;
     align-items: center;
-    background-color:#fff;
+    background-color: #8630f2;
 }
 
 .logoContainer{
-    height: 50vh;
+    height: 80vh;
     width: 100vw;
-    border-radius: 1.5rem;
+    border-radius: 2rem;
     background-color: #4E02B0;
-    display: block;
+    display: flex;
     align-items: center;
     justify-content: center;
+    box-sizing: border-box;
+    box-shadow: 1rem 2rem 5rem 2.5rem #2f1d80;
 }  
 
 .logoImg{
-    width: 100%;
+    width: 50vmax;
     display: flex;
     align-self: center;
     justify-content: center;
@@ -28,7 +30,34 @@
     margin-bottom: 2rem;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     height: 3rem;
     width: 100vw;
+}
+
+.buttonsContainer button{
+    font: 700 1.2rem 'Lato';
+    color: #fff;
+    margin-top: 3rem;
+    border-radius: 8rem;
+    padding: 1.5rem;
+    background-color: #9158e8;
+    box-shadow: 0rem 5rem 10rem #fc052e;
+}
+
+@media(min-width: 600px){
+    .logoContainer{
+        box-shadow: 1rem 2rem 2rem #2f1d80;
+    }
+    .logoImg{
+        width: 20rem;
+    }
+
+    .buttonsContainer button{
+        box-shadow: none;
+    }
+
+    .buttonsContainer{
+        box-shadow: 2rem 5rem 10rem #fc052e;
+    }
 }

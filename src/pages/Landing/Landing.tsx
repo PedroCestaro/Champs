@@ -11,7 +11,8 @@ function Landing(){
             <img src={Logo} alt="logo-champs" className="logoImg"/>
         </div>
         <div className="buttonsContainer">
-            <button>Champ</button>
+            <button>New Champ</button>
+            <button>Keep Champing</button>
         </div>
     </div>
     );
