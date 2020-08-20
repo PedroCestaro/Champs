@@ -16,7 +16,7 @@
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
-    box-shadow: 1rem 2rem 5rem 2.5rem #2f1d80;
+    box-shadow: 0rem 2rem 5rem 3rem #2f1d80;
 }  
 
 .logoImg{
@@ -38,22 +38,113 @@
 .buttonsContainer button{
     font: 700 1.2rem 'Lato';
     color: #fff;
-    margin-top: 3rem;
+    margin-top: 10rem;
     border-radius: 8rem;
     padding: 1.5rem;
     background-color: #9158e8;
-    box-shadow: 0rem 5rem 10rem #fc052e;
+    box-shadow: 0rem 5vw 20rem 5rem #fc052e;
+    width: 20rem;
+    height: 10rem;
+    transition: 0.5s;
+    cursor: pointer;
 }
 
-@media(min-width: 600px){
-    .logoContainer{
-        box-shadow: 0rem 5rem 10rem #5f0394;
+.buttonsContainer button:hover{
+    background-color: #7d36e7;
+    color: #ffffff;
+    font-weight: bolder;
+    width: 30rem;
+    height: 11rem;
+    font-size: 2rem;
+}
+
+@media(min-width: 400px){
+    .pageLanding{
+        background: linear-gradient(#2f1d80,#8630f2,#cc4598);;
     }
+
+    .logoContainer{
+        box-shadow: 0rem 9vw 5rem 2rem #2f1d80;
+        box-sizing: border-box;
+        transition: 0.3s;
+    }
+
+    
     .logoImg{
-        width: 20rem;
+        width: 35rem;
+        box-sizing: border-box;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        border-radius: 9rem;
+        transition: 0.5s;
+    }
+
+    .logoImg:hover{
+        width: 50rem;
+        box-shadow: 0rem 5rem 50rem 5rem #2f1d80;
     }
 
     .buttonsContainer{
-        background-color: rgba(47, 29, 128, 0);
+        box-sizing: border-box;
+        background: white;
+        box-shadow: 0rem 2rem 50rem  #e46379;
+        height: 0;
+        margin-top: 1rem;
     }
+
+    .buttonsContainer button{
+        margin-top: 10rem;
+        width: 20rem;
+        height: 10rem;
+        box-shadow: 0rem 0vw 50rem 5rem #d63c56;
+    }
+
+
+}
+
+@media(min-width: 700px){
+    .pageLanding{
+        background: linear-gradient(#2f1d80,#8630f2,#cc4598);;
+    }
+
+    .logoContainer{
+        box-shadow: 0rem 9vw 5rem 2rem #2f1d80;
+        box-sizing: border-box;
+        transition: 0.3s;
+    }
+
+    
+    .logoImg{
+        width: 35rem;
+        box-sizing: border-box;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        border-radius: 9rem;
+        transition: 0.5s;
+       /* box-shadow: 0rem 9vw 50rem 5rem #2f1d80;*/
+    }
+
+    .logoImg:hover{
+        width: 50rem;
+        box-shadow: 0rem 5rem 50rem 5rem #2f1d80;
+    }
+
+    .buttonsContainer{
+        box-sizing: border-box;
+        background: white;
+        box-shadow: 0rem 10vw 50rem 5rem #d63c56;;
+        height: 0;
+        margin-top: 1rem;
+    }
+
+    .buttonsContainer button{
+        margin-top: 10rem;
+        width: 20rem;
+        height: 10rem;
+        box-shadow: 0rem 0vw 50rem 5rem #d63c56;
+    }
+
+
 }
