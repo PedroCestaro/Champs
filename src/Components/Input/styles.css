@@ -1,0 +1,22 @@
+.inputBox{
+    background-color: royalblue;
+    height: 15vh;
+    width: 40rem;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    font: 400 1.3rem Lato;
+    border-radius: 1.5rem;
+}
+
+.inputBox .labelBox{
+    font: 700 italic 1.5rem Lato;
+    display: flex;
+    align-self: flex-start;
+    margin-top: -12vh;
+    color: #fff;
+    background-color: #8630f2;
+    padding: 1rem;
+    border-radius: 1rem;
+}

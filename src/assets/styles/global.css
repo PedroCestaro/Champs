@@ -1,33 +1,33 @@
 :root {
-    font-size: 60%;
-  }
+  font-size: 60%;
+}
 
-  *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  
-  html, body,#root{
-    height: 100vh;
+
+html, body,#root{
+  height: 100vh;
 }   
 
 body,
-  input,
-  button,
-  textarea{
-      font: 400 1.6rem Lato;
-      max-width: 100vw;
-  }
+input,
+button,
+textarea{
+    font: 400 1.6rem Lato;
+    max-width: 100vw;
+}
 
-  .container{
-    width: 90vw;
-    max-width: 700px;
+.container{
+  width: 90vw;
+  max-width: 700px;
 }
 
 @media(min-width: 700px){
-    :root{
-        font-size: 62.5%;
-    }
+  :root{
+      font-size: 62.5%;
+  }
 }

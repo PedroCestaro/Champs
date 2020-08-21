@@ -1,8 +1,9 @@
 .hdr{
     background-color:#4E02B0;
+    margin: auto;
     display: flex;
-    flex-direction: row;
     position: fixed;
+    margin-top: -50vh;
 }
 
 .hdr .logo{

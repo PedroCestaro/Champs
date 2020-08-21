@@ -1,9 +1,56 @@
 .nwc{
-    background: orange;
-    width: 20rem;
+    background: #f2f2f2;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
- .content{
-     background-color: yellowgreen;
-     width: 50vw;
- }
+
+
+ .nwc .content{
+    background-color: #fff;
+    width: 80vw;
+    height: 90vmin;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border-radius: 2rem;
+    margin-top: 15rem;
+    box-shadow: 0rem 0rem 7rem  #9a989c;
+    font: 400 1.2rem Lato;
+    color: #fff;
+}
+
+.nwc .content header{
+    background-color: #8630f2;
+    box-sizing: border-box;
+    height: 6rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    position: fixed;
+    margin-top: -65vmax;
+    border-radius: 1rem;
+}
+
+.nwc .content footer{
+    width: 80vw;
+    height: 5rem;
+    position: fixed;
+    display: flex;
+    margin-top: 65.5vh;
+    background: #8630f2;
+    border-radius: 1rem;
+}
+
+.nwc .content fieldset{
+    border-width: 0;
+}
+
+

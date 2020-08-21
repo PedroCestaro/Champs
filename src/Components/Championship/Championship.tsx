@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles.css';
-import Match from '../Match';
+import Match from '../Match/index';
 
 
 const Championship =  () => {
