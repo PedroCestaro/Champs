@@ -5,11 +5,11 @@ import Logo from '../../assets/log0.png';
 
 function Header() {
   return (
-      <div className="header">
+      <header className="hdr">
         <div className="logo">
           <img src={Logo} alt="Champs-logo"/>
         </div>
-      </div>
+      </header>
   );
 }      
 

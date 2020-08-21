@@ -1,6 +1,4 @@
 :root {
-    
-  
     font-size: 60%;
   }
 
@@ -8,36 +6,28 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }/*anulando o css nativo*/
-
-  html,body,#root{
-      height: 100vh;/*faz com que a pag ocupe 100% da tela*/
   }
-
 
   
+  html, body,#root{
+    height: 100vh;
+}   
 
-  #root{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  body,
+body,
   input,
   button,
   textarea{
       font: 400 1.6rem Lato;
-      color: var(--color-text-base);
-  }/*rem - 1.percent para aumentar o tamanho da fonte*/
+      max-width: 100vw;
+  }
 
   .container{
-      width: 90vw;
-      max-width: 700px;
-  }/*ocupa 90% da screen, a menos que passe os 700px*/
+    width: 90vw;
+    max-width: 700px;
+}
 
-  @media(min-width: 700px){
-      :root{
-          font-size: 62.5%;
-      }
-  }
+@media(min-width: 700px){
+    :root{
+        font-size: 62.5%;
+    }
+}

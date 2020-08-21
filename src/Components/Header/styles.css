@@ -1,22 +1,27 @@
-.header{
+.hdr{
     background-color:#4E02B0;
     display: flex;
-    padding: 1.6rem;
-    width: 100%;
+    flex-direction: row;
+    position: fixed;
+}
+
+.hdr .logo{
+    display: flex;
+    padding: 1.6rem ;
     align-items: center;
     justify-content: center;
-    box-sizing: border-box;
+    width: 100vw;
 }
 
-.logo{
-    display: flex;
-    box-sizing: border-box;
-    align-items: center;
-    justify-items: center;
-}
-
-.logo img{
+.hdr .logo img{
     box-sizing: border-box;
     display: flex;
     height: 10rem;
+    transition: 0.5s;
+}
+
+.hdr .logo img:hover{
+    width: 30vw;
+    height: 10rem;
+    transition: 0.5s;
 }
