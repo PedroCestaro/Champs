@@ -5,52 +5,156 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    box-sizing: border-box;
 }
 
 
 
  .nwc .content{
     background-color: #fff;
-    width: 80vw;
-    height: 90vmin;
+    width: 90vw;
+    height: 51rem;
     margin: auto;
-    display: flex;
+    position: relative;
+    margin-bottom: 1rem;
+    align-self: flex-end;
+    display: block;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
     border-radius: 2rem;
-    margin-top: 15rem;
     box-shadow: 0rem 0rem 7rem  #9a989c;
     font: 400 1.2rem Lato;
-    color: #fff;
+    color: black;
+    position:relative;
+
 }
+
+
 
 .nwc .content header{
     background-color: #8630f2;
     box-sizing: border-box;
-    height: 6rem;
+    height: 5rem;
+    width: 100%;
     padding: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80vw;
-    position: fixed;
-    margin-top: -65vmax;
+    align-self: flex-start;
     border-radius: 1rem;
+    font: 600 1.2rem Lato;
+    color: #fff;
 }
 
 .nwc .content footer{
-    width: 80vw;
-    height: 5rem;
-    position: fixed;
+    width: 90%;
+    height: 4.5rem;
     display: flex;
-    margin-top: 65.5vh;
+    align-self: flex-end;
     background: #8630f2;
-    border-radius: 1rem;
+    border-radius: 1.3rem;
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 1rem;
 }
 
-.nwc .content fieldset{
-    border-width: 0;
+
+.nwc .content .field{
+    height: 80%;
+    width: 100%;
+    position: relative;
+    border: 1px solid #8630f2;
+    border-right-style: none;
+    border-left-style: none;
+    border-radius: 2rem;
+    display: grid;
+    flex-flow: column;
+    margin: auto;
+    margin-top: 0.5rem;
+    align-items: center;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    grid-template: auto;
+
 }
 
+.nwc .content .field form{
+    height: 20%;
+    width: 100%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-start;
+    box-sizing: border-box;
+    margin-bottom: -40%;
+}
+
+.nwc .content .field form fieldset{
+    border: none;
+    box-sizing: border-box;
+    height: 20%;
+    width: 90%;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    margin-top: 5rem;
+    padding: 2rem;
+}
+
+.nwc .content .field .players{
+    border-top: 1px solid #8630f2;
+    margin: auto;
+    height: 80%;
+    width: 90%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font: 400 1.2rem Lato;
+    position: fixed;
+    margin-top: 40%;
+    align-self: flex-end;
+
+}
+
+.nwc .content .field .players span{
+    align-self: flex-start;
+    box-sizing: border-box;
+    height: 1rem;
+    width: 100%;
+    padding: 2rem;
+    font: 600 1rem Lato;
+}
+
+.nwc .content .field .players span h1{
+   color: #8630f2;
+}
+
+
+.nwc .content .field .players button{
+    background: #7221d6;
+    padding: 1rem;
+    width: 8rem;
+    height: 8rem;
+    margin-top: 1rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    font-weight: bolder;
+    border-radius: 70%;
+}
+
+.nwc .content .field .players .players-content{
+    background: #f2f2f2;
+    width: 80%;
+    padding: 1rem;
+    box-sizing: border-box;
+    overflow: scroll;
+}
 

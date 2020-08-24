@@ -12,21 +12,34 @@ function newChamp(){
             </header>
             <div className="content">
                 <header>
-                    <label><h1>New Champ</h1></label>
+                    <h1>New Champ</h1>
                 </header>
                 <div className="field">
                     <form>
-                        <fieldset >
+                        <fieldset>
                             <Input
-                            name="champName"
-                            label="Champ's Name"
-                            type="text"
-                            />
+                            name="champs-name"
+                            label="Champs-name"
+                            type="text"/>
+                        </fieldset>
+                        <fieldset>
+                            <Input
+                            name="champ-type"
+                            label="Champ's Type"
+                            type="text"/>
                         </fieldset>
                     </form>
+                    <div className="players">
+                    <span><h1>Players</h1></span>
+                    <div className="players-content">
+                        <p>Player1</p>
+                        <p>Player2</p>
+                    </div>
+                    <button>+</button>
                 </div>
-                <footer />
-            </div>
+                </div>
+                <footer/>
+            </div>  
         </div>
     );
 }

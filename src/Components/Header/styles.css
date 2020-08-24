@@ -3,7 +3,10 @@
     margin: auto;
     display: flex;
     position: fixed;
-    margin-top: -50vh;
+    align-self: flex-start;
+    top: 0;
+    width: 100vw;
+    height: 10rem;
 }
 
 .hdr .logo{

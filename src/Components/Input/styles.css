@@ -1,22 +1,37 @@
 .inputBox{
-    background-color: royalblue;
-    height: 15vh;
-    width: 40rem;
+    height: 5vh;
+    width: 100%;
     display: flex;
     justify-content:center;
     align-items: center;
     flex-direction: column;
     font: 400 1.3rem Lato;
-    border-radius: 1.5rem;
+    border-radius: 1.2rem;
+    box-sizing:border-box ;
+    
 }
 
-.inputBox .labelBox{
+.inputBox label{
     font: 700 italic 1.5rem Lato;
     display: flex;
     align-self: flex-start;
-    margin-top: -12vh;
+    margin-top: -4rem;
     color: #fff;
     background-color: #8630f2;
     padding: 1rem;
     border-radius: 1rem;
 }
+
+.inputBox  input{
+    width: 45rem;
+    height: 100%;
+    display: flex;
+    border-radius: 0.8rem;
+    border: 1px solid #8630f2;
+    border-top:none;
+    outline-color: #8630f2;
+    font: 400 1.5rem Lato;
+    margin: auto;
+    padding: 2rem;
+}
+
