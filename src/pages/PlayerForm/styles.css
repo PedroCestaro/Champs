@@ -1,0 +1,120 @@
+
+.player-container{
+    height: 90vh;
+    width: 100%;
+    background-color: #f2f2f2;
+    font: 400 1.2rem Nunito;
+
+}
+
+ .player-container .player-profile{
+    width: 95%;
+    height: 98%;
+    box-shadow: 0rem 0rem 7rem  #9a989c;
+    background-color: #fff;
+    margin: auto; 
+    display: grid;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+   grid-template-rows: 5vh 98%;
+}
+
+.player-container .player-profile header{
+    background-color: #8630f2;
+    box-sizing: border-box;
+    height: 5rem;
+    width: 48rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-start;
+    border-radius: 1rem;
+    font: 600 1.2rem Lato;
+    color: #fff;
+}
+
+.player-profile .profile{
+    width: 95%;
+    height: 90%;
+    margin: auto;
+    border: 1px solid #8630f2;
+    justify-content: center;
+    display: grid;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    box-sizing: border-box;    
+    grid-template-rows: 20rem 10fr 10fr;
+}
+
+.player-profile .profile form{
+    height: 100%;
+    width: 100%;
+    padding: 5rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column;
+    row-gap: 5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.player-profile .profile form fieldset{
+    width: 150%;
+    border: none;
+    padding: 1%;
+}
+
+.player-profile .profile .picture{
+    padding: 1.5rem;
+    height: 33rem;
+    width: 100%;
+    border-top: 1px solid #8630f2;;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.player-profile .profile .picture p{
+    font-size: 2rem;
+    color: #6f11e2;
+    align-self: flex-start;
+    margin-top: -10rem;
+}
+
+.player-profile .profile .picture input{
+    width: 100%;
+}
+
+.player-profile .profile .picture button{
+    padding: 1rem;
+    width: 50%;
+    background: #8630f2;
+    color: #fff;
+    font-size: 2rem;
+    transition: 0.2s;
+    margin-top: 10rem;
+    border-radius: 4rem;
+}
+
+.player-profile .profile .picture button:hover{
+    background-color: #6f11e2;
+}
+
+@media(min-width: 750px){
+
+    .player-container{
+        height: 115vh;
+    }
+    .player-container .player-profile{
+        max-width: 50%;
+        max-height: 90vh;
+    }
+}
