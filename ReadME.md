@@ -6,9 +6,9 @@
 <br/>
 <p align="center">Champs is an Online plataform to manage Championships data</p>
 
-<img src="https://github.com/PedroCestaro/Proffy_App/blob/master/proffy_images/landing.png" alt="banner"/>
-<img src="https://github.com/PedroCestaro/Proffy_App/blob/master/proffy_images/give-class.png" alt="giveClasses"/>
-<img src="https://github.com/PedroCestaro/Proffy_App/blob/master/proffy_images/study.png" alt="study"/>
+<img src="https://github.com/PedroCestaro/Champs/blob/master/images/design-mobile.png" alt="banner"/>
+<img src="https://github.com/PedroCestaro/Champs/blob/master/images/NewChamp.png" alt="NewChamp"/>
+
 
 
 <br>
@@ -35,9 +35,9 @@ Technology involved:
 - MySQL;
 
 #licenca
-O Proffy opera com a licença MIT.
+O Champ opera com a licença MIT.
 
 #autor
-Pedro Cestaro (Contribuindo projeto RocketSeat)
+Pedro Cestaro 
 
 <h4 align="center"> Building version 1.0 </h4>
